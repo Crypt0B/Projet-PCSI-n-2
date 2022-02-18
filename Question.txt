@@ -1,0 +1,11 @@
+Degré d’un sommet dans un graphe
+_____________________________________________
+
+Un graphe est une structure de données très utilisée en informatique, qui intervient naturellement dans de très nombreuxalgorithmes.
+À titre d’exemple, considérons une carte de l’Amérique du sud, et supposons que nous voulions colorier chaque paysavec une couleur, de telle sorte que deux pays frontaliers soient de couleurs différentes.
+On peut remplacer cette carte par un graphe, dans lequel les sommets sont les pays (le Brésil est en 1, l’Argentine en 11) et les arêtes les frontières.
+Ainsi on ne représente que les données utiles au problème :
+Le degré d’un sommet est le nombre d’autres sommets auquel il est connecté, ainsi dans le graphe ci-dessus le degré du sommet 8 est 2, celui du sommet 7 est 5, celui du sommet 1 est 10.
+Un graphe peut être décrit par son nombre n de sommets (supposés numérotés de 1 à n) et la liste de ses arêtes, chacune d’elle étant représentée par une chaîne de caractères comme "1 3" signifiant qu’il y a une arête entre le sommet 1 et le sommet 3.
+Le but de ce projet est, à partir du fichier graphe.txt, de déterminer et d’afficher le degré de chacun des sommets ainsi que le nombre de sommets de degré 2.
+La première ligne du fichier contient le nombre de sommets, après quoi on a une arête par ligne jusqu’à la fin du fichier.
